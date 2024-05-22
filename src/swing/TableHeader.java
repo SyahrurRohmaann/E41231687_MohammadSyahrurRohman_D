@@ -16,6 +16,7 @@ public class TableHeader extends JLabel {
         setFont(new Font("montserrat bold", 1, 11));
         setForeground(new Color(80, 80, 80));
         setBorder(new EmptyBorder(10,10, 10, 10));
+        setHorizontalAlignment(JLabel.CENTER);
         
     }
 

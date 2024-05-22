@@ -24,7 +24,7 @@ public class Total_Pengeluaran extends JLabel implements Runnable{
             ResultSet rs = pst.executeQuery();
             if(rs.next()){
                 String valueFromDB = rs.getString("total");
-                setText(valueFromDB);
+                setText("Rp"+ valueFromDB);
             }
             else{
                 setText("NULL");
